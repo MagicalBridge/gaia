@@ -24,6 +24,6 @@ echo -e "${YELLOW}🗑️  重置节点数据...${NC}"
 gaiad comet unsafe-reset-all >/dev/null 2>&1
 
 # 3. 启动节点
-echo -e "${GREEN}🚀 启动节点...${NC}"
-echo "================================"
-gaiad start
+# echo -e "${GREEN}🚀 启动节点...${NC}"
+# echo "================================"
+# gaiad start
