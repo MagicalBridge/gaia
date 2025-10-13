@@ -1,5 +1,5 @@
-const GaiaQuery = require('../query');
-const GaiaTransfer = require('../transfer');
+const GaiaQuery = require('./query');
+const GaiaTransfer = require('./transfer');
 
 async function testWithExistingAccounts() {
   console.log('🧪 使用现有账户测试');

@@ -1,5 +1,5 @@
-const GaiaQuery = require('../query');
-const GaiaTransfer = require('../transfer');
+const GaiaQuery = require('./query');
+const GaiaTransfer = require('./transfer');
 
 async function comprehensiveTest() {
   console.log('🎯 Gaia CosmJS SDK 综合功能测试');

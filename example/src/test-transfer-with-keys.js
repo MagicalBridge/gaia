@@ -1,9 +1,9 @@
 const { DirectSecp256k1HdWallet } = require('@cosmjs/proto-signing');
 const { SigningStargateClient } = require('@cosmjs/stargate');
 const { GasPrice } = require('@cosmjs/stargate');
-const config = require('../config');
-const GaiaTransfer = require('../transfer');
-const { generateWallet } = require('../wallet');
+const config = require('./config');
+const GaiaTransfer = require('./transfer');
+const { generateWallet } = require('./wallet');
 
 async function testTransferWithKeys() {
   console.log('🧪 使用实际密钥测试转账');

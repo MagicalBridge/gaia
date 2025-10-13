@@ -1,5 +1,5 @@
 const { DirectSecp256k1HdWallet } = require('@cosmjs/proto-signing');
-const GaiaTransfer = require('../transfer');
+const GaiaTransfer = require('./transfer');
 
 async function testBatchTransfer() {
   console.log('🧪 批量转账测试');

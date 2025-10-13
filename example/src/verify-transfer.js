@@ -1,5 +1,5 @@
-const GaiaQuery = require('../query');
-const GaiaTransfer = require('../transfer');
+const GaiaQuery = require('./query');
+const GaiaTransfer = require('./transfer');
 
 async function verifyTransfer() {
   console.log('🔍 验证转账结果');

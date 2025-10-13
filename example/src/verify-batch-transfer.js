@@ -1,4 +1,4 @@
-const GaiaTransfer = require('../transfer');
+const GaiaTransfer = require('./transfer');
 
 async function verifyBatchTransfer() {
   console.log('🔍 验证批量转账结果');

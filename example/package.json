@@ -2,14 +2,19 @@
   "name": "gaia-cosmjs-example",
   "version": "1.0.0",
   "description": "Gaia CosmJS SDK 示例项目 - 演示如何使用 CosmJS 与 Gaia 单节点进行交互",
-  "main": "demo.js",
+  "main": "src/demo.js",
   "scripts": {
-    "start": "node demo.js",
-    "demo": "node demo.js",
-    "transfer": "node demo.js transfer",
-    "query": "node demo.js query",
-    "batch": "node demo.js batch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/demo.js",
+    "demo": "node src/demo.js",
+    "transfer": "node src/demo.js transfer",
+    "query": "node src/demo.js query",
+    "batch": "node src/demo.js batch",
+    "test": "node src/final-comprehensive-test.js",
+    "test:existing": "node src/test-with-existing-accounts.js",
+    "test:transfer": "node src/test-transfer-with-keys.js",
+    "test:batch": "node src/test-batch-transfer.js",
+    "verify:transfer": "node src/verify-transfer.js",
+    "verify:batch": "node src/verify-batch-transfer.js"
   },
   "keywords": [
     "cosmos",
