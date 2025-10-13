@@ -1,0 +1,71 @@
+# Source files that shouldn't be published
+src/
+*.test.js
+*.spec.js
+
+# Development dependencies
+.env
+.env.*
+
+# Documentation and development files
+README.dev.md
+CONTRIBUTING.md
+.github/
+docs/
+
+# Test files
+test/
+tests/
+__tests__/
+coverage/
+
+# Build tools
+.babelrc
+.eslintrc*
+.prettierrc*
+webpack.config.js
+rollup.config.js
+tsconfig.json
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Temporary files
+tmp/
+temp/
+
+# Git files
+.git/
+.gitignore
+
+# CI/CD files
+.travis.yml
+.circleci/
+.github/workflows/
+
+# Development scripts
+scripts/dev/
+scripts/test/
+
+# Local configuration
+config.local.js
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

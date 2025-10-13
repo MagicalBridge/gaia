@@ -1,0 +1,35 @@
+{
+  "name": "gaia-cosmjs-example",
+  "version": "1.0.0",
+  "description": "Gaia CosmJS SDK 示例项目 - 演示如何使用 CosmJS 与 Gaia 单节点进行交互",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "demo": "node demo.js",
+    "transfer": "node demo.js transfer",
+    "query": "node demo.js query",
+    "batch": "node demo.js batch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cosmos",
+    "gaia",
+    "cosmjs",
+    "blockchain",
+    "sdk",
+    "transfer",
+    "query"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmjs/amino": "^0.36.1",
+    "@cosmjs/cosmwasm-stargate": "^0.36.1",
+    "@cosmjs/crypto": "^0.36.1",
+    "@cosmjs/encoding": "^0.36.1",
+    "@cosmjs/proto-signing": "^0.36.1",
+    "@cosmjs/stargate": "^0.36.1",
+    "@cosmjs/tendermint-rpc": "^0.36.1",
+    "dotenv": "^17.2.3"
+  }
+}
