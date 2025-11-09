@@ -8,6 +8,7 @@
 ### DEPENDENCIES
 - Bump [go.opentelemetry.io/otel/sdk/metric](https://github.com/open-telemetry/opentelemetry-go) from 1.36.0 to 1.37.0 ([#3820](https://github.com/cosmos/gaia/pull/3820))
 - Bump [github.com/go-viper/mapstructure/v2](https://github.com/go-viper/mapstructure) from 2.2.1 to 2.3.0 ([#3813](https://github.com/cosmos/gaia/pull/3813))
+- Bump [github.com/CosmWasm/wasmd](https://github.com/CosmWasm/wasmd) from v0.60.1 to v0.60.2 ([#3888](https://github.com/cosmos/gaia/pull/3888))
 
 ### Dependencies
 
@@ -23,6 +24,7 @@
 - Bump google.golang.org/protobuf from 1.36.6 to 1.36.7 ([#3841](https://github.com/cosmos/gaia/pull/3841))
 - Bump [docker/login-action](https://github.com/docker/login-action) from 3.4.0 to 3.5.0 ([#3842](https://github.com/cosmos/gaia/pull/3842))
 - Bump [actions/download-artifact](https://github.com/actions/download-artifact) from 4 to 5 ([#3843](https://github.com/cosmos/gaia/pull/3843))
+- Bump [actions/download-artifact](https://github.com/actions/download-artifact) from 5 to 6 ([#3882](https://github.com/cosmos/gaia/pull/3882))
 
 ## v25.1.0
 
